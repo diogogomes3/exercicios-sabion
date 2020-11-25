@@ -1,4 +1,3 @@
-
 function troca(a, b) {
     var temp=a
     var a=b
