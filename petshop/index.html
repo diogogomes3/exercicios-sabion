@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/global.css" />
+    <title>Pets e cia</title>
+</head>
+<body>
+    <header class="title">
+    <h1>Cadastre seu pet!</h1>
+    </header>
+    <form>
+        <label class="cadastro" for="nome">Nome:</label>
+        <input class="cadastro-box" type="text" name="nome" id="nome" placeholder="Nome do pet">
+
+        <label class="cadastro" for="animal">Qual o seu pet?</label>
+        <input class="cadastro-box" type="text" name="animal" id="animal" placeholder="Qual o animal">
+
+        <label class="cadastro" for="idade">Idade:</label>
+        <input class="cadastro-box" type="text" name="idade" id="idade" placeholder="Número, semanas/meses/anos">
+
+        <label class="cadastro" for="raca">Raça:</label>
+        <input class="cadastro-box" type="text" name="raca" id="raca" placeholder="Qual a raça">
+        <button class="cadastrar" formaction="" type="button" onclick="cadastrarPet()">cadastrar</button>
+    </form>
+    
+    <script src="./script/pet-shop.js"></script>
+</body>
+</html>
