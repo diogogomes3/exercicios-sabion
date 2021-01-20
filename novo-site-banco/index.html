@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,33 +9,49 @@
 <body>
     <header class="title">
         <h1>Cadastre-se e abra sua conta!</h1>
+        <p id="tubarao"></p>
     </header>
     <div class="data-form">
-        <form>
+        <form class="big-box">
             <label class="data" for="name">Nome:</label>
-            <input class="data" type="text" name="name" id="name" placeholder="Digite seu nome" />
+            <input class="data-box" type="text" name="name" id="name" placeholder="Digite seu nome" />/
+
+            <label class="data" for="last-name">Sobrenome:</label>
+            <input class="data-box" type="text" name="last-name" id="last-name" placeholder="Digite seu sobrenome">
 
             <label class="data" for="cpf">CPF:</label>
-            <input class="data" type="number" name="cpf" id="cpf" placeholder="Digite seu CPF" />
+            <input class="data-box" type="number" name="cpf" id="cpf" placeholder="Digite seu CPF" />
 
             <label class="data" for="rg">RG:</label>
-            <input class="data" type="number" name="rg" id="rg" placeholder="Digite seu RG" />
+            <input class="data-box" type="number" name="rg" id="rg" placeholder="Digite seu RG" />
 
             <label class="data" for="date">Data de Nascimento:</label>
-            <input class="data" type="date"  name="date" id="date"/>
+            <input class="data-box" type="date"  name="date" id="date"/>
 
             <label class="data" for="phone">Telefone:</label>
-            <input class="data" type="tel" name="phone" id="phone" placeholder="Digite seu telefone">
+            <input class="data-box" type="tel" name="phone" id="phone" placeholder="Digite seu telefone">
 
             <label class="data" for="mail">E-mail:</label>
-            <input class="data" type="email" name="mail" id="mail" placeholder="Digite seu e-mail">
+            <input class="data-box" type="email" name="mail" id="mail" placeholder="Digite seu e-mail">
 
             <label class="data" for="adress">Endereço:</label>
-            <input class="data" type="text" name="adress" id="adress" placeholder="Digite seu endereço">
+            <input class="data-box" type="text" name="adress" id="adress" placeholder="Digite seu endereço">
             
-            <button class="enter" type="button" onclick="cadastrarCliente()">Cadastrar</button>
+            <button class="enter" type="button" onclick="preencherCliente()">Cadastrar</button>
         </form>
     </div>
     <script src="./script/index.js"></script>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body id= "bank">
+    <script src="script/index.js"></script>
 </body>
 </html>
