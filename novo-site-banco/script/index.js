@@ -66,7 +66,7 @@ function criarTitulo() {
     titulo.style.margin = "15px 275px"
     titulo.style.color = "#000000   "
     titulo.style.borderRadius = "15px"
-    form.appendChild(titulo)
+    document.getElementById("bank").appendChild(titulo)
 
 }
 
@@ -130,7 +130,7 @@ function criarPagina() {
 
     criarButton()
     
-    document.getElementById("bank").appendChild(form, titulo)
+    document.getElementById("bank").appendChild(form)
     
 
 }
